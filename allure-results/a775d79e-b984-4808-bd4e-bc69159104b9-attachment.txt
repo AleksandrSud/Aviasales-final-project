@@ -1,0 +1,3 @@
+URL: https://suggest.aviasales.com/v2/nearest_places.json
+Status: 200
+Response: [{"id":"68b45677-f205-424c-b5c6-99ac1e335b3a","type":"city","code":"UUA","name":"Bugulma","country_code":"RU","country_name":"Russia","state_code":null,"coordinates":{"lon":52.816666,"lat":54.61667},"index_strings":[],"weight":1540,"cases":null,"country_cases":null,"main_airport_name":"Bugulma Airport"}]

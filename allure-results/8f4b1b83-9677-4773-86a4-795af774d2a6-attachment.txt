@@ -1,0 +1,3 @@
+URL: https://explore-api.aviasales.com/aggregated/v1/web/aviasales/holidays.json
+Status: 400
+Response: {"error":"validation error: schema: error converting value for \"holidays_enabled\""}

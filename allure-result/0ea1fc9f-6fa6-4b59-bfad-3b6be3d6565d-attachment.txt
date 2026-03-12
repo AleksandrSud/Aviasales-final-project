@@ -1,0 +1,7 @@
+
+🔍 Отладка API:
+URL: https://explore-api.aviasales.com/aggregated/v1/web/aviasales/holidays.json
+Params: {'holidays_enabled': 'true', 'market': 'русский'}
+Status: 400
+Response: {"error":"validation error: invalid market"}
+

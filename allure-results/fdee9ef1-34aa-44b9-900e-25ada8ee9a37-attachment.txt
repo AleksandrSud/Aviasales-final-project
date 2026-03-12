@@ -1,0 +1,6 @@
+
+🔍 Отладка API (DELETE):
+URL: https://suggest.aviasales.com/v2/nearest_places.json
+Status: 200
+
+✅ DELETE запрос тоже работает, вернул 1 мест

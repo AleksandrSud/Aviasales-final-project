@@ -1,0 +1,3 @@
+URL: https://suggest.aviasales.com/v2/nearest_places.json
+Status: 200
+Response: [{"id":"68b45677-f205-424c-b5c6-99ac1e335b3a","type":"city","code":"UUA","name":"Бугульма","country_code":"RU","country_name":"Россия","state_code":null,"coordinates":{"lon":52.816666,"lat":54.61667},"index_strings":[],"weight":1540,"cases":{"vi":"в Бугульму","tv":"Бугульмой","su":"Бугульма","ro":"Бугульмы","pr":"Бугульме","da":"Бугульме"},"country_cases":{"vi":"в Россию","tv":"Россией","su":"Россия","ro":"России","pr":"России","da":"России"},"main_airport_name":"Бугульма"}]
