@@ -3,10 +3,12 @@ import pytest
 from selenium import webdriver
 from main_page import MainPage
 from config import HEADLESS, IMPLICIT_WAIT
-import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 @allure.feature("UI Тесты")
+@pytest.mark.ui
 class TestAviasalesUI:
 
     @pytest.fixture
@@ -45,18 +47,18 @@ class TestAviasalesUI:
             allure.attach(f"Цвет: {color}", name="Button color")
 
     @allure.title("Тест 3: Появляется сообщение об ошибке при пустом поиске")
-    @allure.severity(allure.severity_level.CRITICAL)
     def test_error_message(self, driver):
-        """Проверка что появляется сообщение 'Укажите город прибытия'"""
         page = MainPage(driver).open()
 
         with allure.step("Кликаем поиск без данных"):
             page.click(page.SEARCH_BUTTON)
-        time.sleep(2)  # ждем появление сообщения
+            WebDriverWait(driver, 5).until(
+                EC.visibility_of_element_located(page.ERROR_MESSAGE)
+            )
 
         with allure.step("Проверяем что появилось сообщение об ошибке"):
-            assert page.error_message_displayed(), \
-                "Сообщение об ошибке не появилось"
+            assert page.error_message_displayed(), "Сообщение об ошибке, \
+                  не появилось"
 
         with allure.step("Проверяем текст сообщения"):
             error_text = page.get_error_text()

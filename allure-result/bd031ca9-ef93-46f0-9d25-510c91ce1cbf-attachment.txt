@@ -1,6 +1,0 @@
-
-🔍 Отладка API:
-URL: https://explore-api.aviasales.com/aggregated/v1/web/aviasales/holidays.json
-Params: {'holidays_enabled': 'true', 'market': 'us'}
-Status: 200
-Response: {"periods":[{"start_date":"2026-03-14","end_date":"2026-03-15","type":"weekends"},{"start_date":"2026-03-21","end_date":"2026-03-22","type":"weekends"},{"start_date":"2026-03-28","end_date":"2026-03-2

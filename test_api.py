@@ -5,6 +5,7 @@ from config import TEST_DATA
 
 
 @allure.feature("API Тесты Aviasales")
+@pytest.mark.api
 class TestAviasalesAPI:
     """Класс с API тестами"""
 

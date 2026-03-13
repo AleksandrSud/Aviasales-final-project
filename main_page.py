@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from base_page import BasePage
 import allure
-import time
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class MainPage(BasePage):
@@ -22,7 +22,7 @@ class MainPage(BasePage):
     def open(self):
         """Открыть страницу"""
         self.driver.get("https://www.aviasales.ru")
-        time.sleep(2)
+        self.wait.until(EC.visibility_of_element_located(self.LOGO))
         return self
 
     @allure.step("Проверяем логотип")

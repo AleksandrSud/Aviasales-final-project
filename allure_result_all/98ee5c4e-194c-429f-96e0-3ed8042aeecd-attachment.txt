@@ -1,4 +1,0 @@
-
-🔍 Отладка API (DELETE):
-URL: https://tickets-api.aviasales.com/currency.json
-Status: 405

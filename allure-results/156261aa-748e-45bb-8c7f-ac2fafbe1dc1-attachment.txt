@@ -1,3 +1,0 @@
-URL: https://explore-api.aviasales.com/aggregated/v1/web/aviasales/holidays.json
-Status: 200
-Response: {"periods":[{"start_date":"2026-03-14","end_date":"2026-03-15","type":"weekends"},{"start_date":"2026-03-21","end_date":"2026-03-22","type":"weekends"},{"start_date":"2026-03-28","end_date":"2026-03-29","type":"weekends"},{"start_date":"2026-04-04","end_date":"2026-04-05","type":"weekends"},{"start_date":"2026-04-11","end_date":"2026-04-12","type":"weekends"},{"start_date":"2026-04-18","end_date":"2026-04-19","type":"weekends"},{"start_date":"2026-04-25","end_date":"2026-04-26","type":"weekends"

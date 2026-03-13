@@ -42,21 +42,21 @@ pages - классы
 * `test_ui.py`
 * `pytest.ini` - маркеры для запуска pytest
 
-`README.md` ет-инструкция к работе
+`README.md` - инструкция к работе
 
-`config.py` фигурации
+`config.py` - фигурации
 
 `requirements.txt` - зависимости
 
 ## Инструкция по работе с тестами
 **Запуск API тестов:**
 
-1. Команда `pytest test_api.py -v --alluredir=allure-results`
+1. Команда `pytest -m api`
 2. После завершения тестирования вводим команду `allure serve allure_result_api` для просмотра отчета о тестировании
 
 **Запуск UI тестов:**
 
-1. Команда `pytest test_ui.py -v --alluredir=allure-results`
+1. Команда `pytest -m ui`
 2. После завершения тестирования вводим команду `allure serve allure_result_ui` для просмотра отчета о тестировании
 
 **Запуск всех тестов:**
